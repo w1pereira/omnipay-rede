@@ -1,0 +1,34 @@
+{
+    "name": "w1pereira/omnipay-rede",
+    "description": "e.Rede driver for the Omnipay multi-gateway payment processing library",
+    "keywords": [
+        "e.rede",
+        "redecard",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "payments"
+    ],
+    "homepage": "https://github.com/w1pereira/omnipay-rede",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Rede\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Pereira",
+            "email": "william@williampereira.me",
+            "homepage": "https://williampereira.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.4|^8",
+        "league/omnipay": "^3",
+        "ext-json": "*"
+    }
+}
